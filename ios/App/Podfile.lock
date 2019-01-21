@@ -1,0 +1,40 @@
+PODS:
+  - Capacitor (1.0.0-beta.13):
+    - CapacitorCordova (= 1.0.0-beta.13)
+  - CapacitorCordova (1.0.0-beta.13)
+  - CapacitorTwitter (0.0.1):
+    - Capacitor
+    - TwitterKit
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - Capacitor (from `/Users/stewan/dev/capacitor`)
+  - CapacitorCordova (from `/Users/stewan/dev/capacitor`)
+  - CapacitorTwitter (from `/Users/stewan/dev/capacitor-twitter`)
+  - TwitterKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "/Users/stewan/dev/capacitor"
+  CapacitorCordova:
+    :path: "/Users/stewan/dev/capacitor"
+  CapacitorTwitter:
+    :path: "/Users/stewan/dev/capacitor-twitter"
+
+SPEC CHECKSUMS:
+  Capacitor: 7768a5ccfb0c8514fd7a03f4c673e95073cd5480
+  CapacitorCordova: c7ccc1dc020e699205a79e69a56b08676aa95d1d
+  CapacitorTwitter: 5a937ad52c523ff4e508d658ee76e18c3a8d294d
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: a21727bc3ff50656148a417624bcac90df4453d1
+
+COCOAPODS: 1.5.3

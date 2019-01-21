@@ -1,0 +1,17 @@
+platform :ios, '11.0'
+use_frameworks!
+
+
+target 'App' do
+  # Add your Pods here
+
+  pod 'TwitterKit'
+  pod 'CapacitorTwitter', :path => '/Users/stewan/dev/capacitor-twitter'
+
+  # Automatic Capacitor Pod dependencies, do not delete
+  pod 'Capacitor'
+  # pod 'CapacitorCordova'
+  # pod 'Capacitor', :path => '/Users/stewan/dev/capacitor'
+  # pod 'CapacitorCordova', :path => '/Users/stewan/dev/capacitor'
+  # Do not delete
+end
