@@ -9,9 +9,9 @@ target 'App' do
   pod 'CapacitorTwitter', :path => '/Users/stewan/dev/capacitor-twitter'
 
   # Automatic Capacitor Pod dependencies, do not delete
-  pod 'Capacitor'
+  # pod 'Capacitor'
   # pod 'CapacitorCordova'
-  # pod 'Capacitor', :path => '/Users/stewan/dev/capacitor'
+  pod 'Capacitor', :path => '/Users/stewan/dev/capacitor'
   # pod 'CapacitorCordova', :path => '/Users/stewan/dev/capacitor'
   # Do not delete
 end

@@ -11,6 +11,8 @@
 - npm link
 - go back to this project and `npm link capacitor-twitter`
 - change the path located at `ios/App/Podfile`
+- rename `capacitor.config-BLANK.json` removing the `-BLANK` part
+- change the `consumerKey` and `consumerSecret` at `capacitor.config.json` [create one here](https://developer.twitter.com)
 - cd to ios/App and `pod install`
 - go back to the root of this project and `ionic cap run ios`
 
