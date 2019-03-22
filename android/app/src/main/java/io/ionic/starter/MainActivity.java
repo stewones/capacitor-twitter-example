@@ -1,17 +1,9 @@
 package io.ionic.starter;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.Plugin;
-import com.getcapacitor.PluginHandle;
-import com.twitter.sdk.android.core.DefaultLogger;
-import com.twitter.sdk.android.core.Twitter;
-import com.twitter.sdk.android.core.TwitterAuthConfig;
-import com.twitter.sdk.android.core.TwitterConfig;
-import com.twitter.sdk.android.core.identity.TwitterAuthClient;
 
 import java.util.ArrayList;
 
@@ -31,23 +23,4 @@ public class MainActivity extends BridgeActivity {
             add(TwitterPlugin.class);
         }});
     }
-
-
-
-
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//
-//        // Pass the activity result to the auth client.
-//        Log.d("DEBUG MAIN", String.valueOf(requestCode));
-//
-//        super.onActivityResult(requestCode, resultCode, data);
-//
-//
-//
-//
-//
-//        // authClient.onActivityResult(requestCode, resultCode, data);
-//
-//    }
 }
