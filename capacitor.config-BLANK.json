@@ -8,8 +8,5 @@
       "consumerKey": "XXX",
       "consumerSecret": "YYY"
     }
-  },
-  "server": {
-    "url": "http://192.168.1.3:8100"
   }
 }

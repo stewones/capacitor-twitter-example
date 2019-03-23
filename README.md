@@ -1,24 +1,20 @@
 # capacitor-twitter-example
 
-## steps
+Working app sample for the [capacitor-twitter](https://github.com/stewwan/capacitor-twitter) plugin
+
+## Setup
 
 - git clone this repo
 - npm install
-- clone `capacitor-twitter` plugin (https://github.com/stewwan/capacitor-twitter)
-- cd to plugin folder
-- npm install
-- npm run build
-- npm link
-- go back to this project and `npm link capacitor-twitter`
-- change the path located at `ios/App/Podfile`
 - rename `capacitor.config-BLANK.json` removing the `-BLANK` part
 - change the `consumerKey` and `consumerSecret` at `capacitor.config.json` [create one here](https://developer.twitter.com)
-- cd to ios/App and `pod install`
-- go back to the root of this project and `ionic cap run ios`
+- add the callback urls on twitter dev site [(read the info here)](https://github.com/stewwan/capacitor-twitter)
 
-then you're set to go. relevant code is located at `src/app/home`
+Relevant code is located at `src/app/home`
 
-Cheers 🍻 Follow me [@Twitter](https://twitter.com/StewanSilva)
+Cheers 🍻
+
+Follow me [@Twitter](https://twitter.com/StewanSilva)
 
 ## license
 
