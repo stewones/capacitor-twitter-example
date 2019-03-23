@@ -1,11 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { Twitter } from "capacitor-twitter";
-import { Plugins } from "@capacitor/core";
-const { TwitterPlugin } = Plugins;
 
 const twitter = new Twitter();
 
-console.log(123, TwitterPlugin);
 @Component({
   selector: "app-home",
   templateUrl: "home.page.html",
