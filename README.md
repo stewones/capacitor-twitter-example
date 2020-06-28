@@ -1,14 +1,13 @@
 # capacitor-twitter-example
 
-Working app sample for the [capacitor-twitter](https://github.com/stewwan/capacitor-twitter) plugin
+Working sample for the [capacitor-twitter](https://github.com/capacitor-community/twitter) plugin
 
 ## Setup
 
 - git clone this repo
 - npm install
-- rename `capacitor.config-BLANK.json` removing the `-BLANK` part
 - change the `consumerKey` and `consumerSecret` at `capacitor.config.json` [create one here](https://developer.twitter.com)
-- add the callback urls on twitter dev site [(read the info here)](https://github.com/stewwan/capacitor-twitter)
+- add callback urls on twitter dev site [(more info here)](https://github.com/capacitor-community/twitter)
 
 Relevant code is located at `src/app/home`
 
