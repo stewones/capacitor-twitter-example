@@ -1,12 +1,12 @@
 import { Component, OnInit } from "@angular/core";
-import { Twitter } from "capacitor-twitter";
+import { Twitter } from "@capacitor-community/twitter";
 
 const twitter = new Twitter();
 
 @Component({
   selector: "app-home",
   templateUrl: "home.page.html",
-  styleUrls: ["home.page.scss"]
+  styleUrls: ["home.page.scss"],
 })
 export class HomePage implements OnInit {
   session: any;
@@ -20,14 +20,14 @@ export class HomePage implements OnInit {
   }
 
   logout() {
-    twitter.logout().then(r => {
+    twitter.logout().then((r) => {
       this.session = {};
       this.isLogged = false;
     });
   }
 
   login() {
-    twitter.login().then(r => {
+    twitter.login().then((r) => {
       this.isLogged = true;
       // this.update();
       console.log("SUCCESS", JSON.stringify(r));
@@ -39,6 +39,6 @@ export class HomePage implements OnInit {
   update() {
     twitter
       .isLogged()
-      .then(r => (r.in ? (this.isLogged = true) : (this.isLogged = false)));
+      .then((r) => (r.in ? (this.isLogged = true) : (this.isLogged = false)));
   }
 }
