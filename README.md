@@ -1,6 +1,11 @@
 # capacitor-twitter-example
 
+> Project archived. use the [official demo here](https://github.com/capacitor-community/twitter/tree/master/example)
+
+
+
 Working sample for the [capacitor-twitter](https://github.com/capacitor-community/twitter) plugin
+
 
 ## Setup
 
